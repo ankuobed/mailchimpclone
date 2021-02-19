@@ -9,7 +9,7 @@
     grid-template-columns: repeat(auto-fill, 150px);
     gap: 20px;
     border-bottom: 1px solid black;
-    margin-bottom: 20px;
+    padding-bottom: 60px;
     justify-content: center;
     align-items: center;
 }
@@ -18,8 +18,13 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, 300px);
     gap: 40px;
-    margin-bottom: 20px;
+    padding-top: 60px;
     justify-content: center;
+}
+
+.footer .download {
+    display: flex;
+    align-items: center;
 }
 
 .footer .download img {
@@ -51,5 +56,15 @@
 
 .footer .rights {
     font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.rights select {
+    padding: 8px;
+    font-size: 16px;
+    background-color: transparent;
+    width: 120px;
+}
