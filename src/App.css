@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+  color: #403b3b;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Cooper Light';
+  src: url('./fonts/Cooper-Light-BT_11756.ttf');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  padding: 0 8%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+  padding: 10px;
+  border: none;
+  outline: none;
 }
 
-.App-link {
-  color: #61dafb;
+ul {
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none;
+  color: inherit;
 }
