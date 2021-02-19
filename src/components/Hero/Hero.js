@@ -9,7 +9,7 @@ export default function Hero() {
                 <p>Mailchimp helps small businesses do big things, with the right tools and guidance every step of the way.</p>
                 <button>Pick A Plan</button>
             </div>
-            <img alt='hero image' src={heroImage} />
+            <img alt='hero' src={heroImage} />
         </div>
     )
 }
